@@ -1,0 +1,97 @@
+﻿
+@{
+    Layout = null;
+}
+
+<style>
+
+    a {
+        text-decoration: none;
+    }
+
+    * {
+        font-family: 'Montserrat';
+    }
+
+    .conteudo {
+        margin: 190px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal1 {
+        color: #f9004d;
+    }
+
+    .btn-grad {
+        background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #f9004d;
+        border-radius: 10px;
+        display: block;
+        border: none;
+    }
+
+    input:focus {
+        box-shadow: #f9004d;
+    }
+
+    .btn-grad:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    h1 {
+        font-weight: bolder;
+        font-size: 50px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>PEDIDO FINALIZADO</title>
+</head>
+
+
+
+<body>
+    <section>
+        <div class="conteudo">
+            <div class="conteudo-principal">
+                <h1 class="principal1" style="font-weight: 900;">Seu pedido está a caminho</h1>
+                <h3 class="principal2">O motoboy sairá para entrega assim que o pedido ficar pronto!</h3>
+                <h3 class="principal3">Tempo máximo de espera 1h</h3>
+                <a href="~/Home/Index" class="btn-grad">Voltar para Home</a>
+
+            </div>
+            <div class="imagem">
+                <img src="~/assets/img/astronauta.png">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,352 @@
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\projetoJapones.dll.config
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\projetoJapones.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\projetoJapones.pdb
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csc.exe
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csc.exe.config
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csc.rsp
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csi.exe
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csi.exe.config
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csi.rsp
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.AppContext.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Collections.Immutable.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Console.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Globalization.Calendars.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.Compression.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.FileSystem.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Net.Http.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Net.Sockets.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Reflection.Metadata.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.ValueTuple.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.XPath.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\vbc.exe
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\vbc.exe.config
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\vbc.rsp
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\VBCSCompiler.exe
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\VBCSCompiler.exe.config
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Antlr3.Runtime.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\BouncyCastle.Crypto.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Google.Protobuf.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.Streams.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Hash.xxHash.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.Web.Infrastructure.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\MySql.Data.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Newtonsoft.Json.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Buffers.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Memory.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Numerics.Vectors.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Helpers.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Mvc.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Optimization.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Razor.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Deployment.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Razor.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Ubiety.Dns.Core.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\WebGrease.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\ZstdNet.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Google.Protobuf.pdb
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Google.Protobuf.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.Streams.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Hash.xxHash.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\MySql.Data.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Buffers.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Memory.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Numerics.Vectors.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Helpers.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Mvc.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Optimization.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Razor.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Deployment.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Razor.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Newtonsoft.Json.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Antlr3.Runtime.pdb
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Helpers.resources.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Mvc.resources.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Optimization.resources.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Razor.resources.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.WebPages.resources.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.csproj.AssemblyReference.cache
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.csproj.CoreCompileInputs.cache
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.csproj.CopyComplete
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.pdb
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\projetoJapones.dll.config
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\projetoJapones.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\projetoJapones.pdb
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csc.exe
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csc.exe.config
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csc.rsp
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csi.exe
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csi.exe.config
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csi.rsp
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.AppContext.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Console.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.Compression.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Net.Http.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Net.Sockets.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.ValueTuple.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.XPath.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\vbc.exe
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\vbc.exe.config
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\vbc.rsp
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\VBCSCompiler.exe
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\Antlr3.Runtime.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\BouncyCastle.Crypto.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\Google.Protobuf.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Hash.xxHash.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\MySql.Data.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\Newtonsoft.Json.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Buffers.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Memory.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Numerics.Vectors.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Helpers.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Mvc.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Optimization.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Razor.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Razor.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\Ubiety.Dns.Core.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\WebGrease.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\ZstdNet.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\Google.Protobuf.pdb
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\Google.Protobuf.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Hash.xxHash.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\MySql.Data.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Buffers.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Memory.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Numerics.Vectors.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Helpers.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Mvc.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Optimization.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Razor.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Razor.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\Newtonsoft.Json.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\Antlr3.Runtime.pdb
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.csproj.AssemblyReference.cache
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.csproj.CoreCompileInputs.cache
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.csproj.CopyComplete
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.dll
+C:\Users\francisco.hlima1\Desktop\Rick\tcc\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.pdb
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.Extensions.Primitives.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.Net.Http.Headers.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Text.Encodings.Web.dll
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.Extensions.Primitives.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.Net.Http.Headers.xml
+D:\TCC\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Text.Encodings.Web.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\projetoJapones.dll.config
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\projetoJapones.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\projetoJapones.pdb
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csc.exe
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csc.exe.config
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csc.rsp
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csi.exe
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csi.exe.config
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\csi.rsp
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.AppContext.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Collections.Immutable.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Console.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Globalization.Calendars.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.Compression.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.FileSystem.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Net.Http.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Net.Sockets.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Reflection.Metadata.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.ValueTuple.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.XPath.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\vbc.exe
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\vbc.exe.config
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\vbc.rsp
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\VBCSCompiler.exe
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\roslyn\VBCSCompiler.exe.config
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Antlr3.Runtime.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\BouncyCastle.Crypto.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Google.Protobuf.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.Streams.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Hash.xxHash.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.Extensions.Primitives.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.Net.Http.Headers.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.Web.Infrastructure.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\MySql.Data.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Newtonsoft.Json.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Buffers.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Memory.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Numerics.Vectors.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Text.Encodings.Web.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Helpers.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Mvc.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Optimization.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Razor.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Deployment.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Razor.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Ubiety.Dns.Core.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\WebGrease.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\ZstdNet.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Google.Protobuf.pdb
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Google.Protobuf.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Compression.LZ4.Streams.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\K4os.Hash.xxHash.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.Extensions.Primitives.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.Net.Http.Headers.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\MySql.Data.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Buffers.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Memory.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Numerics.Vectors.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Text.Encodings.Web.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Helpers.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Mvc.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Optimization.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.Razor.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Deployment.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\System.Web.WebPages.Razor.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Newtonsoft.Json.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Antlr3.Runtime.pdb
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Helpers.resources.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Mvc.resources.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Optimization.resources.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.Razor.resources.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.WebPages.resources.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.csproj.AssemblyReference.cache
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.csproj.CoreCompileInputs.cache
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.csproj.CopyComplete
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.dll
+D:\TCC TODOS\projetoJapones-master\projetoJapones\projetoJapones\obj\Debug\projetoJapones.pdb

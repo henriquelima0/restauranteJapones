@@ -1,0 +1,82 @@
+﻿@model projetoJapones.Models.modelProduto
+
+@{
+    ViewBag.Title = "ExcluirProduto";
+}
+
+<h2>ExcluirProduto</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>modelProduto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.cd_Produto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cd_Produto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nm_Produto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nm_Produto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vl_Produto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vl_Produto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.desc_Produto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.desc_Produto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.qt_Estoque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.qt_Estoque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.img_Produto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.img_Produto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cd_Cat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cd_Cat)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="cd_Produto" />
+            <input type="submit" value="Excluir" class="btn btn-danger" /> |
+            <a asp-action="Index">Voltar</a>
+        </form>
+    }
+</div>

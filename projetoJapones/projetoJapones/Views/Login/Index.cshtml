@@ -1,0 +1,110 @@
+﻿@model projetoJapones.Models.modelCliente
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    @Styles.Render("~/Content/css")
+    <link rel="stylesheet" type="text/css" href="~/assets/css/loginCli.css" media="screen" />
+</head>
+
+<body>
+    <style>
+.fun a {
+  position: absolute;
+  left: 90%;
+  top: 90%;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #f9004d;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.fun a:hover {
+  box-shadow: inset 100px 0 0 0 #f9004d;
+  color: white;
+}
+
+.back a {
+  position: absolute;
+  left: 5%;
+  top: 90%;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #f9004d;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.back a:hover {
+  box-shadow: inset 100px 0 0 0 #f9004d;
+  color: white;
+}
+    </style>
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+<section class="vh-100">
+    <div class="centralizar">
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="~/assets/img/molho.jpg" margin alt="Sample image" style="height:700px; width:700px; margin-left: 60px; ">
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                    <form>
+                        <div class="form-horizontal">
+                            <h1 style="font-weight: 900;"><span >Login</span></h1>
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.login_Cliente, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.login_Cliente, new { htmlAttributes = new { @class = "form-control", @autocomplete = "off" } })
+                                    @Html.ValidationMessageFor(model => model.login_Cliente, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.senha_Cliente, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.senha_Cliente, new { htmlAttributes = new { @class = "form-control", @autocomplete = "off" ,   @type = "password" } })
+                                    @Html.ValidationMessageFor(model => model.senha_Cliente, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10 ">
+                                    <input type="submit" value="Fazer Login" class="btn-grad" />
+                                </div>
+                            </div>
+
+                            <p class="small fw-bold mt-2 pt-1 mb-0">
+                                Não tem conta? <a href="/Cliente/Index/" class="link-danger"><span>Registrar</span></a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fun">
+        <a href="/Funcionario/Login" target="_blank">Funcionário?</a>
+    </div>
+    <div class="back">
+        <a href="/Home/Index" target="_blank">Voltar</a>
+    </div>
+</section>
+    }
+
+</body>
+</html>
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")

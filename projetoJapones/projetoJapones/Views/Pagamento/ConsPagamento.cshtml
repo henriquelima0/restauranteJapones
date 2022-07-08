@@ -1,0 +1,48 @@
+﻿@model IEnumerable<projetoJapones.Models.modelPagamento>
+
+@{
+    ViewBag.Title = "ConsPagamento";
+    Layout = "~/Views/Shared/_areaFuncionario.cshtml";
+}
+<head>
+    <title>Consultar Pagamento</title>
+</head>
+
+<style>
+    body {
+        color: white;
+    }
+</style>
+<hr />
+<h2 style="color: white; text-align: center;font-weight: 900;">Lista de Pagamentos</h2>
+<br />
+<table style="color: white;" class="table table-borderless">
+    <tr style="color: #f9004d;">
+        <th>
+            @Html.DisplayNameFor(model => model.cd_Pagto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ds_Pagto)
+        </th>
+        <th>
+            @Html.ActionLink("Novo", "Index")
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.cd_Pagto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ds_Pagto)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.cd_Pagto }) |
+                @Html.ActionLink("Excluir", "ExcluiPgmto", new { id = item.cd_Pagto })
+            </td>
+        </tr>
+    }
+
+</table>

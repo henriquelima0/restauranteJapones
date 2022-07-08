@@ -1,0 +1,132 @@
+﻿
+@model projetoJapones.Models.modelProduto
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Consultar Produto</title>
+    @Styles.Render("~/Content/css")
+    <link rel="stylesheet" type="text/css" href="~/assets/css/areaFun.css" media="screen" />
+</head>
+
+
+<body>
+    <style>
+section{
+    color: white;
+}
+.arr {
+     margin-left: 30px;
+     font-size: 20px;
+}
+.form-horizontal .form-group {
+     margin-right: 0; 
+     margin-left: 0; 
+}
+    </style>
+    <header class="cabecalho">
+        <nav>
+            <h2 class="logo">Área<span> Restrita</span></h2>
+            <ul>
+
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Cadastro</button>
+                        <div class="dropdown-content">
+                            <a href="~/Produto/Index">Produto</a>
+                            <a href="~/Categoria/Index">Categoria</a>
+                            <a href="~/Funcionario/Index">Funcionário</a>
+                            <a href="~/Pagamento/Index">Forma de Pagamento</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Consulta</button>
+                        <div class="dropdown-content">
+                            <a href="~/Produto/ConsProduto">Produto</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Funcionário</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Pedido</button>
+                        <div class="dropdown-content">
+                            <a href="#">Produto</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Funcionário</a>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+            <a class="btn-login">Funcionario</a>
+        </nav>
+    </header>
+
+    <section>
+        <hr />
+
+        @using (Html.BeginForm())
+        {
+    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+                        <h1 class="arr">Produto</h1>
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                         @Html.HiddenFor(model => model.cd_Produto)
+
+                        <div class="form-group arr">
+                            @Html.LabelFor(model => model.nm_Produto, htmlAttributes: new { @class = "arr" }):
+                            <span> @Html.DisplayFor(model => model.nm_Produto)</span>
+                        </div>
+
+                        <div class="form-group arr">
+                            @Html.LabelFor(model => model.desc_Produto, htmlAttributes: new { @class = "arr" }):
+                            <span> @Html.DisplayFor(model => model.desc_Produto)</span>
+                        </div>
+
+                        <div class="form-group arr">
+                            @Html.LabelFor(model => model.vl_Produto, htmlAttributes: new { @class = "arr" }):
+                            <span> @Html.DisplayFor(model => model.vl_Produto)</span>
+
+                        </div>
+
+                        @if (Session["usu"] != null)
+                        {
+        <div class="form-group arr">
+            @Html.LabelFor(model => model.qt_Estoque, htmlAttributes: new { @class = "arr" })):
+            <span> @Html.DisplayFor(model => model.qt_Estoque)</span>
+        </div>
+
+                            <div class="form-group arr">
+                                <!-- ATENCAO AQUI -->
+                                @Html.LabelFor(model => model.cd_Cat, htmlAttributes: new { @class = "arr" }):
+                                <span> @Html.DisplayFor(model => model.cd_Cat)</span>
+                            </div>}
+
+                    <div>
+                        @Html.ActionLink("Voltar", "Index", "Home", htmlAttributes: new { @class = "arr" })
+                    </div>
+                    </div>}
+
+        
+
+
+
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    </section>
+</body>
+</html>

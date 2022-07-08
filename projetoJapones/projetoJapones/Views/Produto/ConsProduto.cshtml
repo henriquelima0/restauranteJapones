@@ -1,0 +1,76 @@
+﻿@model IEnumerable<projetoJapones.Models.modelProduto>
+
+@{
+    Layout = "~/Views/Shared/_areaFuncionario.cshtml";
+}
+<head>
+    <title>Consultar Produto</title>
+</head>
+
+<body>
+    <hr />
+    <h2 style="color: white; text-align: center;font-weight: 900;">Lista de Produtos</h2>
+    <br />
+    <table style="color: white;" class="table table-borderless">
+        <tr style="color: #f9004d;">
+            <th>
+                @Html.DisplayNameFor(model => model.cd_Produto )
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nm_Produto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.desc_Produto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.vl_Produto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.qt_Estoque)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cd_Cat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.img_Produto)
+            </th>
+            <th>
+                @Html.ActionLink("Novo", "Index")
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.cd_Produto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nm_Produto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_Produto)
+        </td>
+        <td>
+            R$@Html.DisplayFor(modelItem => item.vl_Produto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.qt_Estoque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cd_Cat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.img_Produto)
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "EditarProduto", new {  id= item.cd_Produto  }) |
+            @Html.ActionLink("Excluir", "ExcluirProduto", new { id = item.cd_Produto })
+        </td>
+    </tr>
+}
+
+    </table>
+
+</body>

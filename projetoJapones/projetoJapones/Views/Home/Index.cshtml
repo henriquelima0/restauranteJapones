@@ -1,0 +1,50 @@
+﻿@model IEnumerable<projetoJapones.Models.modelProduto>
+
+@{ ViewBag.Title = "Restaurante Japonês"; }
+
+@if (Session["usuarioLogado"] != null)
+{
+<h2>Olá, seja bem vindo(a) @ViewBag.usuarioLogado</h2>}
+
+
+
+<center><h1 style="padding-top: 20px; padding-bottom: 30px; font-weight: 900;" id="prod">Pratos</h1></center>
+
+<div class="td">
+    <div class="row center">
+        <div class="col-lg-9">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+    <div class="col-lg-3 col-md-6 mb-4" style="margin:2% 4%">
+        <div class="card h-100">
+            <a href="/Produto/Detalhes/@item.cd_Produto">
+                @if (@item.img_Produto != null)
+                {<img class="card-img-right flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" style="margin: 10px; border-radius: 3px; width: 160px; height: 160px;" src="@item.img_Produto" data-holder-rendered="true">}
+                else
+                {<img class="card-img-right flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" style="margin: 10px; border-radius: 3px; width: 160px; height: 160px; " src="~/Images/image-not-found.jpg" data-holder-rendered="true">}
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="@item.img_Produto">@item.nm_Produto</a>
+                </h4>
+                <h5>R$ @item.vl_Produto</h5>
+            </div>
+            <div class="card-footer space-between-flex" style="width:90%">
+ 
+                <div>
+                    @using (Html.BeginForm("AdicionarCarrinho", "Home", FormMethod.Post))
+                    {
+            <input type="hidden" name="id" value=@item.cd_Produto>
+                                <input type="hidden" name="pre" value=@item.vl_Produto>
+                                                    <input type="hidden" name="quantidade" value="1" >
+                                                                        <button type="submit" href="/Home/Carrinho/#carrinho" class="btn btn-default btn-acao-primario">Comprar</button>}
+                </div>
+            </div>
+        </div>
+    </div>}
+            </div>
+        </div>
+    </div>
+</div>
+

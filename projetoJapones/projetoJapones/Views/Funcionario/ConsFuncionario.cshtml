@@ -1,0 +1,68 @@
+﻿@model IEnumerable<projetoJapones.Models.modelFuncionario>
+
+@{
+    ViewBag.Title = "ConsFuncionario";
+    Layout = "~/Views/Shared/_areaFuncionario.cshtml";
+}
+<head>
+    <title>Consulta Funcionários</title>
+</head>
+<style>
+    body {
+        color: white;
+    }
+</style>
+
+<hr />
+<h2 style="color: white; text-align: center;font-weight: 900;">Lista de Funcionários</h2>
+<br />
+<table style="color: white;" class="table table-borderless">
+    <tr style="color: #f9004d;">
+        <th>
+            @Html.DisplayNameFor(model => model.cd_Funcio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.codTipoUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nm_Funcio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.login_Funcio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.senha_Funcio)
+        </th>
+
+        <th>
+            @Html.ActionLink("Novo", "Index")
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.cd_Funcio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.codTipoUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nm_Funcio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.login_Funcio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.senha_Funcio)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.cd_Funcio }) |
+                @Html.ActionLink("Excluir", "Delete", new { id = item.cd_Funcio })
+            </td>
+        </tr>
+    }
+
+</table>

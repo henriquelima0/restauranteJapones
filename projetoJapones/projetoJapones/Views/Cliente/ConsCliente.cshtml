@@ -1,0 +1,62 @@
+﻿@model IEnumerable<projetoJapones.Models.modelCliente>
+
+@{
+    ViewBag.Title = "ConsCliente";
+    Layout = "~/Views/Shared/_areaFuncionario.cshtml";
+}
+<head>
+    <title>Consultar Clientes</title>
+</head>
+
+<style>
+    body {
+        color: white;
+    }
+</style>
+
+<hr />
+<h2 style="color: white; text-align: center;font-weight: 900;">Lista de Clientes</h2>
+<br />
+<table style="color: white;" class="table table-borderless">
+    <tr style="color: #f9004d;">
+        <th>
+        @Html.DisplayNameFor(model => model.cd_Cliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nm_Cliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.no_Telefone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.login_Cliente)
+        </th>
+        <th>
+            @Html.ActionLink("Novo", "Index")
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.cd_Cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nm_Cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.no_Telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.login_Cliente)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.cd_Cliente }) |
+                @Html.ActionLink("Excluir", "ExcluiPgmto", new { id = item.cd_Cliente })
+            </td>
+        </tr>
+    }
+
+</table>

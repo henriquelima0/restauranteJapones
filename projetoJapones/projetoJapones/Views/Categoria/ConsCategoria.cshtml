@@ -1,0 +1,47 @@
+﻿@model IEnumerable<projetoJapones.Models.modelCategoria>
+
+@{
+    ViewBag.Title = "ConsCategoria";
+    Layout = "~/Views/Shared/_areaFuncionario.cshtml";
+}
+<head>
+    <title>Consultar Categoria</title>
+</head>
+<style>
+    body {
+        color: white;
+    }
+</style>
+<hr />
+<h2 style="color: white; text-align: center;font-weight: 900;">Lista de Categorias</h2>
+<br />
+<table style="color: white;" class="table table-borderless">
+    <tr style="color: #f9004d;">
+        <th>
+            @Html.DisplayNameFor(model => model.cd_Cat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nm_Cat)
+        </th>
+        <th>
+            @Html.ActionLink("Novo", "Index")
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.cd_Cat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nm_Cat)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.cd_Cat }) |
+                @Html.ActionLink("Excluir", "ExcluiPgmto", new { id = item.cd_Cat })
+            </td>
+        </tr>
+    }
+
+</table>

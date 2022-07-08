@@ -1,0 +1,174 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/sushi2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #f9004d;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+nav a:hover {
+    color: black;
+    text-decoration: none;
+}
+.conteudo-principal a:hover {
+    color: #f9004d;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+        nav ul li a:hover {
+            
+            color: #f9004d;
+            transition: .4s;
+        }
+
+.btn-login {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+    .btn-login:hover {
+        transform: scale(1.1);
+    }
+
+/* CONTEUDO PRINICPAL */
+
+.conteudo-principal {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-weight: 400;
+}
+
+h2 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.btn-pedido {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: transform .4s; /*?????????*/
+    font-size: 35px;
+}
+
+/*LOCAL*/
+.main-local {
+    background-color: #27272e;
+    padding-top: 40px;
+    font-weight: 400;
+}
+
+.img-local {
+    height: 670px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.texto-local {
+    left: 30%;
+    transform: translateY(-50%);
+    margin-top: -350px;
+    position: absolute;
+    color: WHITE;
+    font-weight: 400;
+}
+/*SOBRE */
+.main {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #27272e;
+}
+
+    .about img {
+        height: 600px;
+        width: 600px;
+    }
+
+.sobre {
+    margin-left: 225px;
+    width: 1750px;
+    color: white;
+}
+
+.titulo-sobre {
+    text-align: center;
+}
+.rodape{
+    background-color: #27272e;
+    height: 10vh;
+    color: white;
+    text-align: center;
+}
+.rodape  p {
+    padding-top: 40px;
+}

@@ -1,0 +1,77 @@
+﻿@model IEnumerable<projetoJapones.Models.modelEntrega>
+@{ Layout = "~/Views/Shared/_areaFuncionario.cshtml"; }
+<head>
+    <title>Cad Categoria</title>
+</head>
+
+<style>
+    .form-group {
+        width: 50%;
+    }
+</style>
+<hr />
+
+<h2 style="color: white; text-align: center; font-weight: 900;">Lista de Entregas</h2>
+<br />
+<table style="color: white;" class="table table-borderless">
+    <tr style="color: #f9004d; ">
+        <th>
+            @Html.DisplayNameFor(model => model.codVenda)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.no_cep)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nm_estado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nm_cidade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nm_bairro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nm_rua)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.no_end)
+        </th>
+            <th>
+            @Html.DisplayNameFor(model => model.nm_complemento)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.codVenda)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.no_cep)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.nm_estado)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.nm_cidade)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.nm_bairro)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.nm_rua)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.no_end)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.nm_complemento)
+    </td>
+    <td>
+    </td>
+</tr>
+}
+
+</table>

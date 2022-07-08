@@ -1,0 +1,213 @@
+﻿@model projetoJapones.Models.modelEntrega
+
+@{
+    ViewBag.Title = "entregaFinal";
+}
+<script>
+
+    function frete(cep) {
+        $.ajax({
+            url: '@Url.Action("CalculaFrete","Home")?cep='+cep,
+            type: "POST",
+            contentType: "aplication/json",
+            data: "",
+            success: function (result) {
+                document.getElementById('dt_entrega').value = (result[0]+" dias");
+                document.getElementById('vl_frete').value = (result[1]+"R$");
+            },
+            error: function (xhr, exception) {
+                alert("Erro ao calcular frete");
+                document.getElementById('dt_entrega').value = ("");
+                document.getElementById('vl_frete').value = ("");
+            }
+        });
+    }
+
+    function limpa_formulário_cep() {
+        //Limpa valores do formulário de cep.
+        document.getElementById('nm_rua').value = ("");
+        document.getElementById('nm_bairro').value = ("");
+        document.getElementById('nm_cidade').value = ("");
+        document.getElementById('nm_estado').value = ("");
+        document.getElementById('dt_entrega').value = ("");
+        document.getElementById('vl_frete').value = ("");
+    }
+
+    function meu_callback(conteudo) {
+        if (!("erro" in conteudo)) {
+            //Atualiza os campos com os valores.
+            document.getElementById('nm_rua').value = (conteudo.logradouro);
+            document.getElementById('nm_bairro').value = (conteudo.bairro);
+            document.getElementById('nm_cidade').value = (conteudo.localidade);
+            document.getElementById('nm_estado').value = (conteudo.uf);
+        } //end if.
+        else {
+            //CEP não Encontrado.
+            limpa_formulário_cep();
+            alert("CEP não encontrado.");
+        }
+    }
+
+    function pesquisacep(valor) {
+
+        //Nova variável "cep" somente com dígitos.
+        var cep = valor.replace(/\D/g, '');
+
+        //Verifica se campo cep possui valor informado.
+        if (cep != "") {
+
+            //Expressão regular para validar o CEP.
+            var validacep = /^[0-9]{8}$/;
+
+            //Valida o formato do CEP.
+            if (validacep.test(cep)) {
+
+                //Preenche os campos com "..." enquanto consulta webservice.
+                document.getElementById('nm_estado').value = "...";
+                document.getElementById('nm_bairro').value = "...";
+                document.getElementById('nm_cidade').value = "...";
+                document.getElementById('nm_rua').value = "...";
+                document.getElementById('dt_entrega').value = "...";
+                document.getElementById('vl_frete').value = "...";
+
+                //Cria um elemento javascript.
+                var script = document.createElement('script');
+
+                //Sincroniza com o callback.
+                script.src = 'https://viacep.com.br/ws/' + cep + '/json/?callback=meu_callback';
+
+                //Insere script no documento e carrega o conteúdo.
+                document.body.appendChild(script);
+
+                //Chamando método para calcular frete
+                frete(cep);
+
+
+            } //fim if.
+            else {
+                //cep é inválido.
+                limpa_formulário_cep();
+                alert("Formato de CEP inválido.");
+            }
+        } //fim if.
+        else {
+            //cep sem valor, limpa formulário.
+            limpa_formulário_cep();
+        }
+    }
+</script>
+<h2 style="font-weight: 900;">Preencha os Campos Abaixo</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Entrega</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.no_cep, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.no_cep, new { htmlAttributes = new { @class = "form-control", @id = "no_cep", onblur = "pesquisacep(this.value);" , @autocomplete = "off" } })
+                @Html.ValidationMessageFor(model => model.no_cep, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.nm_estado, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.nm_estado, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly", @id = "nm_estado", @autocomplete = "off" } })
+                @Html.ValidationMessageFor(model => model.nm_estado, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.nm_cidade, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.nm_cidade, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly", @id = "nm_cidade", @autocomplete = "off" } })
+                @Html.ValidationMessageFor(model => model.nm_cidade, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.nm_rua, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.nm_rua, new { htmlAttributes = new { @class = "form-control", @id = "nm_rua", @name = "nm_rua", @autocomplete = "off" } })
+                @Html.ValidationMessageFor(model => model.nm_rua, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.nm_bairro, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.nm_bairro, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly", @id = "nm_bairro", @autocomplete = "off" } })
+                @Html.ValidationMessageFor(model => model.nm_bairro, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.no_end, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.no_end, new { htmlAttributes = new { @class = "form-control", @autocomplete = "off" } })
+                @Html.ValidationMessageFor(model => model.no_end, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.nm_complemento, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.nm_complemento, new { htmlAttributes = new { @class = "form-control", @autocomplete = "off" } })
+                @Html.ValidationMessageFor(model => model.nm_complemento, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group hidden">
+            @Html.LabelFor(model => model.dt_entrega, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.dt_entrega, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly", @id = "dt_entrega", @name = "dt_entrega" } })
+                @Html.ValidationMessageFor(model => model.dt_entrega, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group hidden">
+            @Html.LabelFor(model => model.vl_frete, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.vl_frete, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly", @id = "vl_frete", @name = "vl_frete" } })
+                @Html.ValidationMessageFor(model => model.vl_frete, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group center">
+            <div>
+                @Html.LabelFor(model => model.codVenda, htmlAttributes: new { @class = "control-label col-md-2" })
+            </div>
+            <div class="col-md-10">
+                @Html.DropDownList("carregaVenda", "Código da Venda")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="CONFIRMAR" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#no_cep").inputmask("mask", { "mask": "99999-999" }, { reverse: true });
+        });
+    </script>
+    @Scripts.Render("~/bundles/jqueryval")
+}

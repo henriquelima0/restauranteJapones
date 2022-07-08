@@ -1,0 +1,101 @@
+﻿@model projetoJapones.Models.modelVendas
+@{ ViewBag.Title = "Finalizado";
+    Layout = ""; }
+<style>
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .containerPedido {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #table {
+
+        border-collapse: collapse;
+        width: 70%;
+    }
+
+    td, th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+        color: black;
+    }
+
+    tr {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #27272e;
+        color: white;
+    }
+
+    h1 {
+        color: #f9004d;
+    }
+
+    .img {
+        width: 500px;
+        height: 500px;
+        flex-direction: row;
+    }
+
+    .btn-grad {
+        background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 51%, #56ab2f 100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        border-radius: 10px;
+        display: block;
+        border: none;
+    }
+
+        .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+        }    
+</style>
+
+@using (Html.BeginForm("Pedido", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    @Html.AntiForgeryToken()
+    <br />
+    <br />
+    <br />
+    <div class="containerPedido">
+        <h1 style="font-weight: 900;">Pedido quase finalizado!</h1>
+        @Html.Raw(ViewBag.GridViewString)
+        <h3>Qual será a forma de pagamento?</h3>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.DropDownList("pagamento", "Escolha a forma de Pagamento")
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Finalizar Venda" class="btn-grad" />
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            <img class="img" src="~/assets/img/sushikwa.png" />
+        </div>
+        </div>
+    
+}
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")

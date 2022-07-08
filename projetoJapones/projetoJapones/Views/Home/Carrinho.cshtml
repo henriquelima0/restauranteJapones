@@ -1,0 +1,67 @@
+﻿@model projetoJapones.Models.modelVendas
+@{
+    ViewBag.Title = "Carrinho";
+}
+<style>
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 70%;
+    }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+            color: black;
+        }
+
+        #customers tr {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #27272e;
+            color: white;
+        }
+    span {
+        color: #f9004d;
+    }
+</style>
+<div id=”carrinho”>
+    <center><h1 style="padding-top: 20px; padding-bottom: 30px;" id="prod">Carrinho</h1></center>
+
+    <table id="customers">
+        <tr class="cor">
+            <td>Produto</td>
+            <td >Quantidade</td>
+            <td>Valor Unitário</td>
+            <td>Valor Total</td>
+            <td></td>
+        </tr>
+
+        @foreach (var item in Model.ItensPedido)
+        {
+
+<tr>
+    <td>@item.Produto</td>
+
+    <td><input style="color: black" type="number" value="@item.Qtd" readonly="readonly"/></td>
+    <td>@item.valorUnit</td>
+    <td>@item.valorParcial</td>
+    <td>@Html.ActionLink("Remover", "ExcluirItem", new { id = item.ItemPedidoID }, null)</td>
+</tr>
+}
+
+    </table>
+</div>
+    <br />
+    <a href="/Home/Index/#prod">Continuar Comprando</a>
+
+
+    <br />
+    @Html.ActionLink("Finalizar Compra", "SalvarCarrinho", "Home")
+<br />
+<h1 style="font-weight: 900;"> Valor Total: <span>@Model.ValorTotal</span></h1>

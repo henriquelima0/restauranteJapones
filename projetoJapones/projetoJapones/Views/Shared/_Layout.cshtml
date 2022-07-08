@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Shingueru</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/assets/css/style.css")
+</head>
+<body>
+    <header class="cabecalho">
+        <nav>
+            <h2 class="logo">Shin<span>gueru</span></h2>
+            <ul>
+                <li><a href="#">@Html.ActionLink("SHINGUERU", "Index", "Home")</a></li>
+                <li><a href="#sobre"> Sobre </a></li>
+                <li><a href="/Home/Index/#prod">Pratos</a></li>
+                <li><a href="/Home/Carrinho/#prod">Carrinho</a></li>
+            </ul>
+
+            @if (Session["usuarioLogado"] != null)
+            {
+            <a class="btn-login" href="/Home/Perfil/">Olá, @ViewBag.usuarioLogado</a>}
+            else {
+            <a class="btn-login" href="/Login/Index/">Faça seu login aqui!</a>
+            }
+        </nav>
+        <div class="conteudo-principal">
+            <h2>Sushi<span><br /> É SEMPRE</span> <br /> um bom pedido!</h2>
+            <a class="btn-pedido">PEÇA JÁ!</a>
+        </div>
+    </header>
+    <div  class="container body-content " >
+        @RenderBody()
+        <hr />
+    </div>
+    <main>
+        <section>
+            <div class="main-local">
+                <img class="img-local" src="~/assets/img/local.png">
+                <div class="texto-local">
+                    <h3>Av Paulista, 500</h3>
+                    <h3>(19) 2348-0167</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section class="about">
+            <h2 id="sobre" class="titulo-sobre">SOBRE</h2>
+            <div class="main">
+                <img class="img-prato" src="~/assets/img/prato.png">
+
+                <div class="sobre">
+                    <h3>
+                        Desde 2000 o Restaurante Hiro vem buscando o equilíbrio entre o tradicional e o moderno para oferecer aos seus clientes
+                        o melhor da culinária japonesa em são Paulo. <br /> <br />
+
+                        Aqui  você pode apreciar o tradicional tempero da Batian (vovó) em pratos como os Teishokus,
+                        ensopados e grelhados ou se deliciar com as invenções de sushis da esteira no sistema Kaiten Sushi.
+                        O Kaiten Sushi é o sistema de pratinhos coloridos na esteira onde cada cor tem um valor e você pode degustar as mais
+                        variadas opções. <br /> <br />
+
+                        É um restaurante que agrada a família toda! Porque amamos o que fazemos e trabalhamos com respeito aos ingredientes, aos
+                        funcionários e dedicação para o aperfeiçoamento constante.
+                    </h3>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; @DateTime.Now.Year - Shingueru Restaurante Japonês</p>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
