@@ -8,6 +8,7 @@ Projeto feito de forma individual durante o meu curso técnico
 <b>Área do Cliente: </b> <br/>
 * Realizar login e realizar compras.
 <br/>
+<br/>
 <b>Área do Funcionário: </b> <br/>
 * Cadastro de produtos e consultas.
 <hr/>
