@@ -7,6 +7,7 @@ Projeto feito de forma individual durante o meu curso técnico
 <h2>:zap: Funções</h2>
 <b>Área do Cliente: </b>
 * Realizar login e realizar compras.
+<br/>
 <b>Área do Funcionário: </b>
 * Cadastro de produtos e consultas.
 <hr/>
