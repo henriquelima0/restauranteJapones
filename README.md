@@ -1,5 +1,17 @@
-# restauranteJapones :)
+<h1>Restaurante Japonês</h1>
 
-  <h1> Sistema Restaurante Japonês - Shingueru </h1>
+Projeto feito de forma individual durante o meu curso técnico
 
-  <h3>Desenvolvido em ASP .NET C# utilizando o banco de dados relacional MySqlServer </h3>
+<hr/>
+
+<h2>:zap: Funções</h2>
+<b>Área do Cliente: </b>
+* Realizar login e realizar compras.
+<b>Área do Funcionário: </b>
+* Cadastro de produtos e consultas.
+<hr/>
+<h2>💻 Como iniciar</h2>
+Faça o clone do projeto
+Entre no MySQL Workbench
+Inicialize o banco de dados do arquivo desafio1.sql
+📋 Tabelas não normalizadas
