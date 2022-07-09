@@ -12,7 +12,7 @@ Projeto feito de forma individual durante o meu curso técnico
 * Cadastro de produtos e consultas.
 <hr/>
 <h2>💻 Como iniciar</h2>
-Faça o clone do projeto
-Entre no MySQL Workbench
-Inicialize o banco de dados do arquivo desafio1.sql
-📋 Tabelas não normalizadas
+Faça o clone do projeto  <br/>
+Entre no MySQL Workbench <br/>
+Inicialize o banco de dados do arquivo script.sql e crie as tabelas 
+<br/>
